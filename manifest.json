@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Random Bookmark Opener",
+  "version": "1.0",
+  "description": "Opens a random bookmark in a new tab.",
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ],
+  "background": {
+    "scripts": ["open-random-bookmark.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/bookmark-96.png",
+    "default_title": "Open Random Bookmark"
+  },
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"
+  }
+}
